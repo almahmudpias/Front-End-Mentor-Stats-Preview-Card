@@ -1,0 +1,13 @@
+
+body{
+    background-color: rgb(10, 10, 48);
+}
+.box{
+	margin: 150px 100px;
+	background-color: #362674f5;
+    border-radius: 5px;
+	padding: 60px 0;
+}
+#text1{
+    color: white;
+}
