@@ -1,14 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css">
+   <!-- Font Awesome -->
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+   <!-- Favicon -->
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -17,25 +17,45 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="Style.css">
+  
 </head>
 <body>
-  <div class="container">
-    <div class="box">
-      <div>
-        <h3 id="text1">Get <span style="color: purple;">insights</span> that help your business grow.</h3>
-        <p id="text1">Discover the benefit of data analytics and make better decision regarding revenue, customer experience, and overall efficiency.</p>
-      </div>
-      <div>
-        <img src="images/image-header-desktop.jpg" alt="">
-      </div>
-
+  <main>
+    <div class="container">
+        <div class="txt">
+            <h1>Get <b>insights</b> that help your business grow.</h1>
+            <p class="info">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+            <div class="stats">
+                <div class="item">
+                    <h2 class="stats-header">10k+</h2>
+                    <p class="stats-txt">companies</p>
+                </div>
+                <div class="item">
+                    <h2 class="stats-header">314</h2>
+                    <p class="stats-txt">templates</p>
+                </div>
+                <div class="item">
+                    <h2 class="stats-header">12M+</h2>
+                    <p class="stats-txt">queries</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-header-desktop" role="img" aria-label="image-header-desktop">
+            
+          <div class="color-overlay">
+           
+              
+            </div>
+        </div>
     </div>
-  </div>
+</main>     
 
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">A. Al Mahmud Pias</a>.
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>&ensp; Coded with &ensp;
+  <i class="fa fa-heart footer"></i>&ensp; <a href="https://www.linkedin.com/in/abdullah-al-mahmud-pias-b239ba19b" target="_blank">A. Al Mahmud Pias</a>
   </div>
 </body>
+
 </html>
